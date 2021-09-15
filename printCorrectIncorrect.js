@@ -9,7 +9,8 @@ var printIt = function(arr){
 	}
 };
 
-var rights = [], wrongs = [];
+var rights = [], 
+    wrongs = [];
 $('.display_question').each(function(){
 	var incorrect = $(this).hasClass('incorrect'),
 		question_text = $(this).find('.question_text').text().trim(),
