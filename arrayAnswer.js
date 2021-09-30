@@ -1,11 +1,11 @@
-//Spit out all your answers in an array:
+// Spit out all your answers in an array:
 var answerList = [];
 $(".question_input").each(function() {
 	answerList.push($(this).val())
 })
 
-//Put your answers in global variable answerList
-//(i.e. paste the answers from your clipboard).
+// Put your answers in global variable answerList
+// (i.e. paste the answers from your clipboard).
 answerList = [];
 
 inputs = $(".question_input")
