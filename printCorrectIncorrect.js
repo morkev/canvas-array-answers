@@ -1,5 +1,5 @@
 // Prints all the correct & incorrect answers
-// on a quiz with multiple bubble answers.
+// on a quiz with multiple bubble questions.
 // @author Kevin Mora
 
 var printIt = function(arr){
